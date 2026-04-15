@@ -7,16 +7,15 @@
 #include<list>
 #include"Student_info.h"
 
-using std::vector;	//추가
+using std::vector;	//異붽?
 
-	//?먰삎?뺤쓽臾?double grade(double, double, const vector<double>&);
+	//?癒곗굨?類ㅼ벥??double grade(double, double, const vector<double>&);
 double grade(double, double, const vector<double>&);
 double grade(double, double, double);
 double grade(const Student_info&);
 
 
-//Student_info 怨꾩궛
-double grade(const Student_info& s) {
+//Student_info ?④쑴沅?double grade(const Student_info& s) {
 	return grade(s.midterm, s.fin, s.homework);
 }
 

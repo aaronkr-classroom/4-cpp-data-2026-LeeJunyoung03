@@ -5,7 +5,7 @@
 
 #include<vector>
 
-using std::vector;	//추가
+using std::vector;	//異붽?
 
 double median(vector<double>);
 #endif // GURD_median_h
